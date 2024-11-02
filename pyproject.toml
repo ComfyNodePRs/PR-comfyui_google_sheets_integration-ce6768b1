@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-google-sheets-integration"
 description = "A custom node for ComfyUI that enables integration with Google Sheets. It allows reading from and writing to Google Sheets directly from ComfyUI workflows, making it easy to import and export data."
-version = "1.0.0"
+version = "1.0.1"
 license = {file = "LICENSE"}
 dependencies = ["google-auth-oauthlib>=0.4.6", "google-auth-httplib2>=0.1.0", "google-api-python-client>=2.0.0", "cryptography>=36.0.0"]  # Filled in from requirements.txt
 
