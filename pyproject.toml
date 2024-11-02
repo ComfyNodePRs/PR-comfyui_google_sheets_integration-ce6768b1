@@ -1,8 +1,9 @@
 [project]
-name = "google-sheets-integration"
+name = "comfyui-google-sheets-integration"
 description = "A custom node for ComfyUI that enables integration with Google Sheets. It allows reading from and writing to Google Sheets directly from ComfyUI workflows, making it easy to import and export data."
 version = "1.0.0"
 license = {file = "LICENSE"}
+dependencies = ["google-auth-oauthlib>=0.4.6", "google-auth-httplib2>=0.1.0", "google-api-python-client>=2.0.0", "cryptography>=36.0.0"]  # Filled in from requirements.txt
 
 [project.urls]
 Repository = "https://github.com/lazniak/comfyui_google_sheets_integration"
@@ -10,5 +11,5 @@ Repository = "https://github.com/lazniak/comfyui_google_sheets_integration"
 
 [tool.comfy]
 PublisherId = "pablogfx"
-DisplayName = "google-sheets-integration"
+DisplayName = "Google Sheets Integration - by PabloGFX"
 Icon = ""
