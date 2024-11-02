@@ -1,0 +1,86 @@
+# Configuration files
+client_secret.json
+pyproject.toml
+.github/workflow/publish_action.yml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.env/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# Node specific files from plugin usage
+token.pickle
+encryption_key.key
+google_sheets_plugin.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.log
+.directory
+
+# Test files
+test*/
+.coverage
+htmlcov/
+.pytest_cache/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Distribution / packaging
+*.manifest
+*.spec
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Documentation
+docs/_build/
+_build/
