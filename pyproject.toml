@@ -1,14 +1,14 @@
 [project]
-name = "head-orientation-node"
-description = "A custom node for ComfyUI that analyzes and sorts images based on head orientation using MediaPipe. It detects facial landmarks, calculates head pose, and intelligently sorts images for enhanced AI image processing workflows."
-version = "1.0.1"
+name = "google-sheets-integration"
+description = "A custom node for ComfyUI that enables integration with Google Sheets. It allows reading from and writing to Google Sheets directly from ComfyUI workflows, making it easy to import and export data."
+version = "1.0.0"
 license = {file = "LICENSE"}
 
 [project.urls]
-Repository = "https://github.com/lazniak/Head-Orientation-Node-for-ComfyUI---by-PabloGFX"
+Repository = "https://github.com/lazniak/comfyui_google_sheets_integration"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
 PublisherId = "pablogfx"
-DisplayName = "Head-Orientation-Node - by PabloGFX"
+DisplayName = "google-sheets-integration"
 Icon = ""
